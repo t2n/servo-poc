@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    .control {
+      width: 100px;
+      height: 100px;
+      margin: 40px;
+      border: 1px dashed green;
+    }
+  </style>
+</head>
+<body>
+  <input type="checkbox" name="controlOn">mouse control on<br>
+  <input type="radio" checked name="servo" value="0"> 0<br>
+  <input type="radio" name="servo" value="1"> 1<br>
+  <input id="progress" value="">
+  <div class="control"></div>
+  <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
